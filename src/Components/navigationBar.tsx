@@ -1,28 +1,24 @@
 import Navbar from 'react-bootstrap/Navbar'
-import NavDropdown from 'react-bootstrap/NavDropdown'
 import Nav from 'react-bootstrap/Nav'
 import Container from 'react-bootstrap/Container'
 
 const NavigationBar = () => {
     return (
       <div>
-       <Navbar bg="light" expand="lg">
+       <Navbar expand="lg" className='bg-dark'>
   <Container>
-    <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+    <Navbar.Brand className='text-white' href="#home">KWAUBEN</Navbar.Brand>
+    <Navbar.Text>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
-        <Nav.Link href="#home">Home</Nav.Link>
-        <Nav.Link href="#link">Link</Nav.Link>
-        <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-          <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-          <NavDropdown.Divider />
-          <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-        </NavDropdown>
+        <Nav.Link className='text-white' href="#home">Home</Nav.Link>
+        <Nav.Link className='text-white' href="#link">About</Nav.Link>
+        <Nav.Link className='text-white' href="#link">Portfolio</Nav.Link>
+        <Nav.Link className='text-white' href="#link">Contact</Nav.Link>
       </Nav>
     </Navbar.Collapse>
+    </Navbar.Text>
   </Container>
 </Navbar>
       </div>
