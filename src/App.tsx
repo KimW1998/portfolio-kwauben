@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
+import NavigationBar from './Components/navigationBar';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <header className="App-header">
+        <NavigationBar />
 <h1>hello</h1>
       </header>
 
