@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container'
 const NavigationBar = () => {
     return (
       <div>
-       <Navbar expand="lg" className='bg-dark'>
+<Navbar expand="lg" >
   <Container>
     <Navbar.Brand className='text-white' href="#home">KWAUBEN</Navbar.Brand>
     <Navbar.Text>
