@@ -11,9 +11,9 @@ const App = () => {
         <HeaderImage />
       </header>
 
-<h1>hello</h1>
       <footer className="App-footer">
 
+<h1 className='test-tekst'>Portfolio Kim Wauben</h1>
       </footer>
     </div>
   );        
