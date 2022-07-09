@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
-import NavigationBar from './Components/navigationBar';
+
 import HeaderImage from './Components/headerImage';
+import Body from './Body';
 
 const App = () => {
   return (
@@ -10,10 +11,10 @@ const App = () => {
        
         <HeaderImage />
       </header>
-
+<Body />
       <footer className="App-footer">
 
-<h1 className='test-tekst'>Portfolio Kim Wauben</h1>
+
       </footer>
     </div>
   );        
