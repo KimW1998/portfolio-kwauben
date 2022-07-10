@@ -13,7 +13,7 @@ const App = () => {
 
       <footer className="App-footer">
 
-<h1 className='test-tekst'>Portfolio Kim Wauben</h1>
+<h1 className='test-tekst'>Created by kim wauben</h1>
       </footer>
     </div>
   );        
