@@ -3,6 +3,21 @@
   background: #232323;
   min-height: 1500px;
 }
+.photo-header{
+height: 560.35px;
+left: 0px;
+top: -0.35px;
+opacity: 0.5;
+border-bottom: 4px solid rgba(0, 0, 0, 0.8);
+  }
+
+  .Header-Tekst{
+  
+  
+    
+    text-align: right;
+    color: #FFFFFF;
+  }
 
 .test-tekst{
   color: white;
@@ -13,4 +28,23 @@
   color: #61dafb;
 }
 
+.Gradient-background{
+  
+width: 375.32px;
+height: 651.52px;
+left: 500px;
+top: 1316px;
+
+background: linear-gradient(180deg, #2400FF 0%, #00FFD1 100%);
+filter: blur(200px);
+transform: rotate(175.99deg);
+}
+
+.ImgKim{
+  
+width: 450.66px;
+height: auto;
+left: 176.34px;
+top: 677.39px;
+}
 

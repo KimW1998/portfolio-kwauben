@@ -1,4 +1,6 @@
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
+import AboutMe from "./Components/AboutMe";
+import AboutMePhoto from "./Components/AboutMePhoto";
 import GetInTouch from "./Components/GetInTouch";
 import LivingRaw from "./Components/LivingRawInfo";
 
@@ -8,7 +10,10 @@ const Body = () => {
 
     <Row>
         <Col>
-        <h1 className="test-tekst">About me</h1>
+        <AboutMePhoto/>
+        </Col>
+        <Col>
+        <AboutMe/>
         </Col>
     </Row>
 
