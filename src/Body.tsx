@@ -13,7 +13,7 @@ const Body = () => {
     return (
 <Container>
 
-    <Row>
+    <Row className="mb-5">
         <Col>
         <AboutMePhoto/>
         </Col>
@@ -21,10 +21,10 @@ const Body = () => {
         <AboutMe/>
         </Col>
     </Row>
-    <Row>
+    <Row className="mb-5">
       <Timeline />
     </Row>
-    <Row className="ButtonsSocials">
+    <Row className="ButtonsSocials mb-5">
       <Col>
       <ButtonSocial />
       </Col>
@@ -38,14 +38,14 @@ const Body = () => {
       <ButtonSocial />
       </Col>
     </Row>
-    <Row>
+    <Row className="mb-2">
         <Col>
-        <h1 className="test-tekst">My Services</h1>
+        <h1 className="test-tekst ItemBorderBox">My Services</h1>
         
         </Col>
     </Row>
 
-    <Row className="ServiceCards">
+    <Row className="ServiceCards mb-5">
         <Col>
         <ServiceCard />
         </Col>
@@ -56,12 +56,12 @@ const Body = () => {
 
     <Row>
         <Col>
-        <h1 className="test-tekst">Skills</h1>
+        <h1 className="test-tekst ItemBorderBox mb-2">Skills</h1>
         
         </Col>
     </Row>
 
-    <Row>
+    <Row className="mb-5">
       <Col>
         <SkillsBox />
       </Col>
@@ -75,7 +75,7 @@ const Body = () => {
         <SkillsBox />
       </Col>
     </Row>
-    <Row>
+    <Row className="mb-5">
       <Col>
         <SkillsBox />
       </Col>
@@ -92,24 +92,24 @@ const Body = () => {
 
     <Row>
         <Col>
-        <h1 className="test-tekst">My Projects</h1>
+        <h1 className="test-tekst ItemBorderBox mb-5">My Work</h1>
         
         </Col>
     </Row>
 <Container className="MyWorkBoxes">
     <Row>
-    <Col>
+    <Col className="m-5">
         <MyWorkBox />
         </Col>
-        <Col>
+        <Col className="m-5">
         <MyWorkBox />
         </Col>
     </Row>
     <Row>
-    <Col>
+    <Col className="m-5">
         <MyWorkBox />
         </Col>
-        <Col>
+        <Col className="m-5">
         <MyWorkBox />
         </Col>
     </Row>
@@ -117,12 +117,12 @@ const Body = () => {
 
     <Row>
         <Col>
-        <h1 className="test-tekst">Living raw boutique</h1>
+        <h1 className="test-tekst ItemBorderBox mb-5">Living raw boutique</h1>
         
         </Col>
     </Row>
 
-    <Row>
+    <Row className="mb-5">
     <Col>
 <LivingRaw/>
         </Col>
@@ -130,11 +130,11 @@ const Body = () => {
 
     <Row>
         <Col>
-        <h1 className="test-tekst">Get in touch</h1>
+        <h1 className="test-tekst ItemBorderBox mb-5">Get in touch</h1>
        
         </Col>
     </Row>
-    <Row>
+    <Row className="mb-5">
         <Col>
         <GetInTouch />
     </Col>
