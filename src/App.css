@@ -45,3 +45,32 @@ left: 176.34px;
 top: 677.39px;
 }
 
+.ButtonSocial{
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  background: transparent;
+  border: 2px solid white;
+}
+
+.ButtonsSocials{
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 0px;
+}
+
+.ServiceCard{
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 25px;
+  color: white;
+}
+
+.MyWorkBox{
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 25px;
+  color: white;
+}

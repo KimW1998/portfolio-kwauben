@@ -24,7 +24,7 @@ const Body = () => {
     <Row>
       <Timeline />
     </Row>
-    <Row>
+    <Row className="ButtonsSocials">
       <Col>
       <ButtonSocial />
       </Col>

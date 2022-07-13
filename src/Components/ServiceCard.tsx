@@ -5,7 +5,7 @@ import { Button, Card } from "react-bootstrap";
 const ServiceCard = () => {
     return (
         <div>
-            <Card style={{ width: '18rem' }}>
+            <Card className="ServiceCard" style={{ width: '18rem' }}>
   <Card.Body>
     <Card.Title>Card Title</Card.Title>
     <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
