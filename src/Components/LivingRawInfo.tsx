@@ -1,23 +1,42 @@
-import { Button, Card } from "react-bootstrap";
 
-const LivingRaw = () => {
-    return (
-      <div>
-<Card style={{ width: '18rem' }}>
-        <Card.Body>
-          <Card.Title>Card Title</Card.Title>
-          <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the bulk of
-            the card's content.
-          </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
-        </Card.Body>
-      </Card>
-      </div>
-    );
-  }
-  
-  export default LivingRaw;
 
+import { Col, Nav, Row, Tab } from 'react-bootstrap';
+import TekstLivingRaw from './TekstLivingRaw';
+import TekstSkillsLivingRaw from './TekstSkillsLivingRaw';
+
+
+function LivingRawTabs() {
+  return (
+    <Tab.Container id="left-tabs-example" defaultActiveKey="first">
+      <Row>
+        <Col sm={3}>
+          <Nav variant="pills" className="flex-column">
+            <Nav.Item>
+              <Nav.Link eventKey="first" >
+                Living Raw Boutique
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link eventKey="second" >
+                Skills
+              </Nav.Link>
+            </Nav.Item>
+          </Nav>
+        </Col>
+        <Col sm={9}>
+          <Tab.Content>
+            <Tab.Pane eventKey="first">
+              <TekstLivingRaw />
+            </Tab.Pane>
+            <Tab.Pane eventKey="second">
+              <TekstSkillsLivingRaw />
+            </Tab.Pane>
+          </Tab.Content>
+        </Col>
+      </Row>
+    </Tab.Container>
+  );
+}
+
+export default LivingRawTabs;
         

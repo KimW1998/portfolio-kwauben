@@ -46,31 +46,57 @@ top: 677.39px;
 }
 
 .ButtonSocial{
-  flex: none;
-  order: 3;
-  flex-grow: 0;
   background: transparent;
-  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+  border-width: 3px;
+  padding: 5px;
+  border-style: solid;
+  border-image: linear-gradient(to right bottom, #260B3C, #a053df);
+  border-image-slice: 1;
+  width: 80px;
 }
 
 .ButtonsSocials{
-  display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px;
-gap: 0px;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .ServiceCard{
   background: transparent;
-  border: 2px solid white;
-  border-radius: 25px;
   color: white;
+  cursor: pointer;
+  border-width: 3px;
+  padding: 5px;
+  border-style: solid;
+  border-image: linear-gradient(to right bottom, #260B3C, #a053df);
+  border-image-slice: 1;
+}
+
+.ServiceCards{
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .MyWorkBox{
   background: transparent;
-  border: 2px solid white;
+  border: none;
   border-radius: 25px;
   color: white;
+}
+
+.MyWorkBoxes{
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.App-footer{
+  background-color: black;
 }

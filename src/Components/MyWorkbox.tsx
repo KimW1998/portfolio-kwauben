@@ -1,10 +1,12 @@
 import { Button, Card } from "react-bootstrap";
+import KimWauben from '../Images/KimWauben.jpg'
 
 const MyWorkBox = () => {
     return (
         <div>
             
             <Card className="MyWorkBox" style={{ width: '18rem' }}>
+            <Card.Img variant="top" src={KimWauben} />
   <Card.Body>
     <Card.Title>Card Title</Card.Title>
     <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>

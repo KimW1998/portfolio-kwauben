@@ -45,7 +45,7 @@ const Body = () => {
         </Col>
     </Row>
 
-    <Row>
+    <Row className="ServiceCards">
         <Col>
         <ServiceCard />
         </Col>
@@ -96,7 +96,7 @@ const Body = () => {
         
         </Col>
     </Row>
-
+<Container className="MyWorkBoxes">
     <Row>
     <Col>
         <MyWorkBox />
@@ -113,7 +113,7 @@ const Body = () => {
         <MyWorkBox />
         </Col>
     </Row>
-    
+  </Container>
 
     <Row>
         <Col>
