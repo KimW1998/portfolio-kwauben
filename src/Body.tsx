@@ -1,8 +1,13 @@
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import AboutMe from "./Components/AboutMe";
 import AboutMePhoto from "./Components/AboutMePhoto";
+import ButtonSocial from "./Components/ButtonSocial";
 import GetInTouch from "./Components/GetInTouch";
+import Timeline from "./Components/HorizontalTimeline";
 import LivingRaw from "./Components/LivingRawInfo";
+import MyWorkBox from "./Components/MyWorkbox";
+import ServiceCard from "./Components/ServiceCard";
+import SkillsBox from "./Components/SkillsBox";
 
 const Body = () => {
     return (
@@ -16,7 +21,23 @@ const Body = () => {
         <AboutMe/>
         </Col>
     </Row>
-
+    <Row>
+      <Timeline />
+    </Row>
+    <Row>
+      <Col>
+      <ButtonSocial />
+      </Col>
+      <Col>
+      <ButtonSocial />
+      </Col>
+      <Col>
+      <ButtonSocial />
+      </Col>
+      <Col>
+      <ButtonSocial />
+      </Col>
+    </Row>
     <Row>
         <Col>
         <h1 className="test-tekst">My Services</h1>
@@ -26,55 +47,47 @@ const Body = () => {
 
     <Row>
         <Col>
-
-        <Card style={{ width: '18rem' }}>
-  <Card.Body>
-    <Card.Title>Card Title</Card.Title>
-    <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
-  </Card.Body>
-</Card>
-
+        <ServiceCard />
         </Col>
         <Col>
-        <Card style={{ width: '18rem' }}>
-  <Card.Body>
-    <Card.Title>Card Title</Card.Title>
-    <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
-  </Card.Body>
-</Card>
+        <ServiceCard />
         </Col>
-
     </Row>
 
     <Row>
         <Col>
-        <h1 className="test-tekst">My toolbox</h1>
+        <h1 className="test-tekst">Skills</h1>
         
         </Col>
     </Row>
 
     <Row>
-        <Col>
-        <Card>
-  <Card.Header>Featured</Card.Header>
-  <Card.Body>
-    <Card.Title>Special title treatment</Card.Title>
-    <Card.Text>
-      With supporting text below as a natural lead-in to additional content.
-    </Card.Text>
-  </Card.Body>
-</Card>
-        </Col>
+      <Col>
+        <SkillsBox />
+      </Col>
+      <Col>
+        <SkillsBox />
+      </Col>
+      <Col>
+        <SkillsBox />
+      </Col>
+      <Col>
+        <SkillsBox />
+      </Col>
+    </Row>
+    <Row>
+      <Col>
+        <SkillsBox />
+      </Col>
+      <Col>
+        <SkillsBox />
+      </Col>
+      <Col>
+        <SkillsBox />
+      </Col>
+      <Col>
+        <SkillsBox />
+      </Col>
     </Row>
 
     <Row>
@@ -86,51 +99,21 @@ const Body = () => {
 
     <Row>
     <Col>
-        <Card style={{ width: '18rem' }}>
-  <Card.Body>
-    <Card.Title>Card Title</Card.Title>
-    <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
-  </Card.Body>
-</Card>
+        <MyWorkBox />
+        </Col>
+        <Col>
+        <MyWorkBox />
         </Col>
     </Row>
-
     <Row>
     <Col>
-        <Card style={{ width: '18rem' }}>
-  <Card.Body>
-    <Card.Title>Card Title</Card.Title>
-    <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
-  </Card.Body>
-</Card>
+        <MyWorkBox />
+        </Col>
+        <Col>
+        <MyWorkBox />
         </Col>
     </Row>
-
-    <Row>
-    <Col>
-        <Card style={{ width: '18rem' }}>
-  <Card.Body>
-    <Card.Title>Card Title</Card.Title>
-    <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
-  </Card.Body>
-</Card>
-        </Col>
-    </Row>
+    
 
     <Row>
         <Col>
