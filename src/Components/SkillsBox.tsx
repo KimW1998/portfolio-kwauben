@@ -19,7 +19,7 @@ const SkillsBox = () => {
                 </Row>
                 <Row>
                     <Col>
-                    <ProgressBar now={now} label={`${now}%`} />;
+                    <ProgressBar now={now} label={`Advanced`} />;
                     </Col>
                 </Row>
             </Container>
