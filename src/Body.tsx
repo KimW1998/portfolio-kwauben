@@ -111,18 +111,18 @@ const Body = () => {
 <Container className="MyWorkBoxes">
     <Row>
     <Col className="m-5">
-        <MyWorkBox src={Mogustar}/>
+        <MyWorkBox src={Mogustar} title="MoguStar" text="A website created for a small supplement company. The website is created with shopify for a fast deploy. The shopify HTML and CSS is changed to create a website to there wishes" used="Shopify - HTML - CSS" GithubLink="www.github.com"/>
         </Col>
         <Col className="m-5">
-        <MyWorkBox src={Pokemon}/>
+        <MyWorkBox src={Pokemon} title="Pokemon" text="Pokemon website" used="React- Bootstrap - HTML - CSS" GithubLink="www.github.com"/>
         </Col>
     </Row>
     <Row>
     <Col className="m-5">
-        <MyWorkBox src={ReactWeatherapp}/>
+        <MyWorkBox src={ReactWeatherapp} title="React WeatherApp" text="React weather app website" used="React - HTML - CSS" GithubLink="www.github.com"/>
         </Col>
         <Col className="m-5">
-        <MyWorkBox src={BasicWeatherap}/>
+        <MyWorkBox src={BasicWeatherap} title="WeaterApp" text="WeaterApp website" used="Bootstrap - HTML - CSS" GithubLink="www.github.com"/>
         </Col>
     </Row>
   </Container>
