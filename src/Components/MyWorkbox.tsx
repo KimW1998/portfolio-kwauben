@@ -1,12 +1,12 @@
 import { Button, Card } from "react-bootstrap";
-import FakeDesktop from '../Images/Pokemon (2).png'
 
-const MyWorkBox = () => {
+
+const MyWorkBox = (props: { src: string; }) => {
     return (
         <div>
             
             <Card className="MyWorkBox" style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={FakeDesktop} />
+            <Card.Img variant="top" src={props.src} />
   <Card.Body>
     <Card.Title>Card Title</Card.Title>
     <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>

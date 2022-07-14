@@ -16,6 +16,10 @@ import C from './Images/c#.png'
 import BootStrap from './Images/bootstrap4.png'
 import GitHub from './Images/gitlab.png'
 import AdobeIllustrator from './Images/ai.svg'
+import Mogustar from './Images/Mogustar (2).png'
+import Pokemon from './Images/Pokemon (2).png'
+import ReactWeatherapp from './Images/React-Weatherapp.png'
+import BasicWeatherap from './Images/Basic-Weatherapp.png'
 
 const Body = () => {
     return (
@@ -107,18 +111,18 @@ const Body = () => {
 <Container className="MyWorkBoxes">
     <Row>
     <Col className="m-5">
-        <MyWorkBox />
+        <MyWorkBox src={Mogustar}/>
         </Col>
         <Col className="m-5">
-        <MyWorkBox />
+        <MyWorkBox src={Pokemon}/>
         </Col>
     </Row>
     <Row>
     <Col className="m-5">
-        <MyWorkBox />
+        <MyWorkBox src={ReactWeatherapp}/>
         </Col>
         <Col className="m-5">
-        <MyWorkBox />
+        <MyWorkBox src={BasicWeatherap}/>
         </Col>
     </Row>
   </Container>
