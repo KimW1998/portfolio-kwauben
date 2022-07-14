@@ -2,6 +2,7 @@
   text-align: center;
   background: #232323;
   min-height: 1500px;
+  font-family: 'Lekton';
 }
 .photo-header{
 height: 560.35px;
@@ -14,6 +15,25 @@ border-bottom: 4px solid rgba(0, 0, 0, 0.8);
   .Header-Tekst{
     text-align: right;
     color: #FFFFFF;
+    justify-content: flex-end;
+  align-content: center
+  
+  }
+
+  .ItemBorderBox{
+    background: transparent;
+    color: white;
+    border-width: 2px;
+    padding: 5px;
+    border-style: solid;
+    border-image: linear-gradient(to right bottom, #260B3C, #a053df);
+    border-image-slice: 1;
+    width: fit-content;
+
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
   }
 
 .test-tekst{
@@ -45,3 +65,58 @@ left: 176.34px;
 top: 677.39px;
 }
 
+.ButtonSocial{
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  border-width: 3px;
+  padding: 5px;
+  border-style: solid;
+  border-image: linear-gradient(to right bottom, #260B3C, #a053df);
+  border-image-slice: 1;
+  width: 100px;
+}
+
+.ButtonsSocials{
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ServiceCard{
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  border-width: 3px;
+  padding: 5px;
+  border-style: solid;
+  border-image: linear-gradient(to right bottom, #260B3C, #a053df);
+  border-image-slice: 1;
+}
+
+.ServiceCards{
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.MyWorkBox{
+  background: transparent;
+  border: none;
+  border-radius: 25px;
+  color: white;
+}
+
+.MyWorkBoxes{
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.App-footer{
+  background-color: black;
+}

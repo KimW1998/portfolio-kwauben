@@ -1,14 +1,31 @@
-import { Button, Card, Col, Container, Row } from "react-bootstrap";
+import {  Col, Container, Row } from "react-bootstrap";
 import AboutMe from "./Components/AboutMe";
 import AboutMePhoto from "./Components/AboutMePhoto";
+import ButtonSocial from "./Components/ButtonSocial";
 import GetInTouch from "./Components/GetInTouch";
+import Timeline from "./Components/HorizontalTimeline";
 import LivingRaw from "./Components/LivingRawInfo";
+import MyWorkBox from "./Components/MyWorkbox";
+import ServiceCard from "./Components/ServiceCard";
+import SkillsBox from "./Components/SkillsBox";
+import HTML5 from './Images/html5.svg'
+import CSS from './Images/css.svg'
+import React from './Images/reactjs.svg'
+import JAVASCRIPT from './Images/js.svg'
+import C from './Images/c#.png'
+import BootStrap from './Images/bootstrap4.png'
+import GitHub from './Images/gitlab.png'
+import AdobeIllustrator from './Images/ai.svg'
+import Mogustar from './Images/Mogustar (2).png'
+import Pokemon from './Images/Pokemon (2).png'
+import ReactWeatherapp from './Images/React-Weatherapp.png'
+import BasicWeatherap from './Images/Basic-Weatherapp.png'
 
 const Body = () => {
     return (
 <Container>
 
-    <Row>
+    <Row className="mb-5">
         <Col>
         <AboutMePhoto/>
         </Col>
@@ -16,130 +33,108 @@ const Body = () => {
         <AboutMe/>
         </Col>
     </Row>
-
-    <Row>
+    <Row className="mb-5">
+      <Timeline />
+    </Row>
+    <Row className="ButtonsSocials mb-5">
+      <Col>
+      <ButtonSocial social="Send a email"/>
+      </Col>
+      <Col>
+      <ButtonSocial social="LinkedIn"/>
+      </Col>
+      <Col>
+      <ButtonSocial social="GitHub"/>
+      </Col>
+      <Col>
+      <ButtonSocial social="Instagram"/>
+      </Col>
+    </Row>
+    <Row className="mb-2">
         <Col>
-        <h1 className="test-tekst">My Services</h1>
+        <h1 className="test-tekst ItemBorderBox">My Services</h1>
         
         </Col>
     </Row>
 
-    <Row>
+    <Row className="ServiceCards mb-5">
         <Col>
-
-        <Card style={{ width: '18rem' }}>
-  <Card.Body>
-    <Card.Title>Card Title</Card.Title>
-    <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
-  </Card.Body>
-</Card>
-
+        <ServiceCard title="Programming" text="About my programming"/>
         </Col>
         <Col>
-        <Card style={{ width: '18rem' }}>
-  <Card.Body>
-    <Card.Title>Card Title</Card.Title>
-    <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
-  </Card.Body>
-</Card>
+        <ServiceCard title="Fashion Design" text="About my fashion design"/>
         </Col>
-
     </Row>
 
     <Row>
         <Col>
-        <h1 className="test-tekst">My toolbox</h1>
+        <h1 className="test-tekst ItemBorderBox mb-2">Skills</h1>
         
         </Col>
     </Row>
 
-    <Row>
-        <Col>
-        <Card>
-  <Card.Header>Featured</Card.Header>
-  <Card.Body>
-    <Card.Title>Special title treatment</Card.Title>
-    <Card.Text>
-      With supporting text below as a natural lead-in to additional content.
-    </Card.Text>
-  </Card.Body>
-</Card>
-        </Col>
+    <Row className="mb-5">
+      <Col>
+        <SkillsBox imgURL={HTML5} alt="HTML5" name="HTML5" now={100} label="Advanced"/>
+      </Col>
+      <Col>
+        <SkillsBox imgURL={CSS} alt="CSS" name="CSS" now={90} label="Advanced"/>
+      </Col>
+      <Col>
+        <SkillsBox imgURL={React} alt="React" name="React" now={60} label="intermediate"/>
+      </Col>
+      <Col>
+        <SkillsBox imgURL={JAVASCRIPT} alt="JavaScript" name="JavaScript" now={40} label="basic"/>
+      </Col>
+    </Row>
+    <Row className="mb-5">
+      <Col>
+        <SkillsBox imgURL={C} alt="C sharp" name="C#" now={30} label="basic"/>
+      </Col>
+      <Col>
+        <SkillsBox imgURL={BootStrap} alt="Bootstrap" name="Bootstrap" now={80} label="advanced"/>
+      </Col>
+      <Col>
+        <SkillsBox imgURL={GitHub} alt="Git Hub" name="Git Hub" now={40} label="basic"/>
+      </Col>
+      <Col>
+        <SkillsBox imgURL={AdobeIllustrator} alt="Adobe Illustrator" name="Adobe Illustrator" now={100} label="Advanced"/>
+      </Col>
     </Row>
 
     <Row>
         <Col>
-        <h1 className="test-tekst">My Projects</h1>
+        <h1 className="test-tekst ItemBorderBox mb-5">My Work</h1>
+        
+        </Col>
+    </Row>
+<Container className="MyWorkBoxes">
+    <Row>
+    <Col className="m-5">
+        <MyWorkBox src={Mogustar}/>
+        </Col>
+        <Col className="m-5">
+        <MyWorkBox src={Pokemon}/>
+        </Col>
+    </Row>
+    <Row>
+    <Col className="m-5">
+        <MyWorkBox src={ReactWeatherapp}/>
+        </Col>
+        <Col className="m-5">
+        <MyWorkBox src={BasicWeatherap}/>
+        </Col>
+    </Row>
+  </Container>
+
+    <Row>
+        <Col>
+        <h1 className="test-tekst ItemBorderBox mb-5">Living raw boutique</h1>
         
         </Col>
     </Row>
 
-    <Row>
-    <Col>
-        <Card style={{ width: '18rem' }}>
-  <Card.Body>
-    <Card.Title>Card Title</Card.Title>
-    <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
-  </Card.Body>
-</Card>
-        </Col>
-    </Row>
-
-    <Row>
-    <Col>
-        <Card style={{ width: '18rem' }}>
-  <Card.Body>
-    <Card.Title>Card Title</Card.Title>
-    <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
-  </Card.Body>
-</Card>
-        </Col>
-    </Row>
-
-    <Row>
-    <Col>
-        <Card style={{ width: '18rem' }}>
-  <Card.Body>
-    <Card.Title>Card Title</Card.Title>
-    <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
-  </Card.Body>
-</Card>
-        </Col>
-    </Row>
-
-    <Row>
-        <Col>
-        <h1 className="test-tekst">Living raw boutique</h1>
-        
-        </Col>
-    </Row>
-
-    <Row>
+    <Row className="mb-5">
     <Col>
 <LivingRaw/>
         </Col>
@@ -147,11 +142,11 @@ const Body = () => {
 
     <Row>
         <Col>
-        <h1 className="test-tekst">Get in touch</h1>
+        <h1 className="test-tekst ItemBorderBox mb-5">Get in touch</h1>
        
         </Col>
     </Row>
-    <Row>
+    <Row className="mb-5">
         <Col>
         <GetInTouch />
     </Col>

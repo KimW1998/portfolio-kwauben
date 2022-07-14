@@ -5,7 +5,13 @@ import { Button, Col, Form, Row } from "react-bootstrap";
 const GetInTouch = () => { 
     return (
 <div>
-<Form>
+  <Row>
+<Col className="test-tekst">
+ <h1>Drop me a Line.</h1>
+ <h1>I would like to hear from you.</h1>
+</Col>
+<Col>
+<Form className="test-tekst">
       <Form.Group as={Row} className="mb-3" controlId="formHorizontalEmail">
         <Form.Label column sm={2}>
           Email
@@ -31,21 +37,15 @@ const GetInTouch = () => {
           <Col sm={10}>
             <Form.Check
               type="radio"
-              label="first radio"
+              label="Fashion Design"
               name="formHorizontalRadios"
               id="formHorizontalRadios1"
             />
             <Form.Check
               type="radio"
-              label="second radio"
+              label="Programming"
               name="formHorizontalRadios"
               id="formHorizontalRadios2"
-            />
-            <Form.Check
-              type="radio"
-              label="third radio"
-              name="formHorizontalRadios"
-              id="formHorizontalRadios3"
             />
           </Col>
         </Form.Group>
@@ -62,6 +62,8 @@ const GetInTouch = () => {
         </Col>
       </Form.Group>
     </Form>
+    </Col>
+    </Row>
 </div>
     );
 }

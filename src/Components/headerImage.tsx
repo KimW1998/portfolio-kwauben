@@ -4,7 +4,7 @@ import NavigationBar from './navigationBar';
 
 const HeaderImage = () => {
     return (
-        <div className='photo-header' style={{ backgroundImage: `url(${headerImageKim})`,
+        <div className='photo-header mb-5' style={{ backgroundImage: `url(${headerImageKim})`,
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
         opacity: 0.5,
