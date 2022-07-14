@@ -38,16 +38,16 @@ const Body = () => {
     </Row>
     <Row className="ButtonsSocials mb-5">
       <Col>
-      <ButtonSocial />
+      <ButtonSocial social="Send a email"/>
       </Col>
       <Col>
-      <ButtonSocial />
+      <ButtonSocial social="LinkedIn"/>
       </Col>
       <Col>
-      <ButtonSocial />
+      <ButtonSocial social="GitHub"/>
       </Col>
       <Col>
-      <ButtonSocial />
+      <ButtonSocial social="Instagram"/>
       </Col>
     </Row>
     <Row className="mb-2">
@@ -59,10 +59,10 @@ const Body = () => {
 
     <Row className="ServiceCards mb-5">
         <Col>
-        <ServiceCard />
+        <ServiceCard title="Programming" text="About my programming"/>
         </Col>
         <Col>
-        <ServiceCard />
+        <ServiceCard title="Fashion Design" text="About my fashion design"/>
         </Col>
     </Row>
 

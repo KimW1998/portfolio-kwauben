@@ -1,19 +1,18 @@
+import { ReactElement, JSXElementConstructor, ReactFragment, ReactPortal } from "react";
 import { Button, Card } from "react-bootstrap";
 
 
 
-const ServiceCard = () => {
+const ServiceCard = (props: { title: string, text: string ; }) => {
     return (
         <div>
             <Card className="ServiceCard" style={{ width: '18rem' }}>
   <Card.Body>
-    <Card.Title>Card Title</Card.Title>
-    <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+    <Card.Title>{props.title}</Card.Title>
     <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+      {props.text}
     </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
+    <Button variant="primary">View My Work</Button>
   </Card.Body>
 </Card>
     </div>
