@@ -1,25 +1,25 @@
 import { Col, Container, ProgressBar, Row } from "react-bootstrap";
 import HTML5 from '../Images/html5.svg'
 
-const SkillsBox = () => {
-    const now = 60;
+const SkillsBox = (props: { imgURL: string, alt: string, name: string, now: any, label: string; }) => {
+
     return (
         <div>
             
             <Container>
                 <Row>
                     <Col>
-                    <img src={HTML5} alt="" />
+                    <img src={props.imgURL} alt={props.alt} />
                     </Col>
                 </Row>
                 <Row>
                     <Col>
-                    <h3 className="test-tekst">HTML5</h3>
+                    <h3 className="test-tekst">{props.name}</h3>
                     </Col>
                 </Row>
                 <Row>
                     <Col>
-                    <ProgressBar now={now} label={`Advanced`} />;
+                    <ProgressBar now={props.now} label={props.label} />;
                     </Col>
                 </Row>
             </Container>

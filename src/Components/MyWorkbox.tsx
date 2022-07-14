@@ -1,5 +1,5 @@
 import { Button, Card } from "react-bootstrap";
-import FakeDesktop from '../Images/FakeDesktop.png'
+import FakeDesktop from '../Images/Pokemon (2).png'
 
 const MyWorkBox = () => {
     return (

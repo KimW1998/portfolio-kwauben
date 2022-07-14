@@ -1,4 +1,4 @@
-import { Button, Card, Col, Container, Row } from "react-bootstrap";
+import {  Col, Container, Row } from "react-bootstrap";
 import AboutMe from "./Components/AboutMe";
 import AboutMePhoto from "./Components/AboutMePhoto";
 import ButtonSocial from "./Components/ButtonSocial";
@@ -8,6 +8,14 @@ import LivingRaw from "./Components/LivingRawInfo";
 import MyWorkBox from "./Components/MyWorkbox";
 import ServiceCard from "./Components/ServiceCard";
 import SkillsBox from "./Components/SkillsBox";
+import HTML5 from './Images/html5.svg'
+import CSS from './Images/css.svg'
+import React from './Images/reactjs.svg'
+import JAVASCRIPT from './Images/js.svg'
+import C from './Images/c#.png'
+import BootStrap from './Images/bootstrap4.png'
+import GitHub from './Images/gitlab.png'
+import AdobeIllustrator from './Images/ai.svg'
 
 const Body = () => {
     return (
@@ -63,30 +71,30 @@ const Body = () => {
 
     <Row className="mb-5">
       <Col>
-        <SkillsBox />
+        <SkillsBox imgURL={HTML5} alt="HTML5" name="HTML5" now={100} label="Advanced"/>
       </Col>
       <Col>
-        <SkillsBox />
+        <SkillsBox imgURL={CSS} alt="CSS" name="CSS" now={90} label="Advanced"/>
       </Col>
       <Col>
-        <SkillsBox />
+        <SkillsBox imgURL={React} alt="React" name="React" now={60} label="intermediate"/>
       </Col>
       <Col>
-        <SkillsBox />
+        <SkillsBox imgURL={JAVASCRIPT} alt="JavaScript" name="JavaScript" now={40} label="basic"/>
       </Col>
     </Row>
     <Row className="mb-5">
       <Col>
-        <SkillsBox />
+        <SkillsBox imgURL={C} alt="C sharp" name="C#" now={30} label="basic"/>
       </Col>
       <Col>
-        <SkillsBox />
+        <SkillsBox imgURL={BootStrap} alt="Bootstrap" name="Bootstrap" now={80} label="advanced"/>
       </Col>
       <Col>
-        <SkillsBox />
+        <SkillsBox imgURL={GitHub} alt="Git Hub" name="Git Hub" now={40} label="basic"/>
       </Col>
       <Col>
-        <SkillsBox />
+        <SkillsBox imgURL={AdobeIllustrator} alt="Adobe Illustrator" name="Adobe Illustrator" now={100} label="Advanced"/>
       </Col>
     </Row>
 
