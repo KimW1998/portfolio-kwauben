@@ -2,6 +2,8 @@
 
 import { Col, Nav, Row, Tab } from 'react-bootstrap';
 import TekstLivingRaw from './TekstLivingRaw';
+import TekstMadeToOrderLivingRaw from './TekstMadeToOrderLivingRaw';
+import TekstProjectsLivingRaw from './TekstProjectsLivingRaw';
 import TekstSkillsLivingRaw from './TekstSkillsLivingRaw';
 
 
@@ -21,6 +23,16 @@ function LivingRawTabs() {
                 Skills
               </Nav.Link>
             </Nav.Item>
+            <Nav.Item>
+              <Nav.Link eventKey="third" >
+                Projects
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link eventKey="fourth" >
+                Made To Order
+              </Nav.Link>
+            </Nav.Item>
           </Nav>
         </Col>
         <Col sm={9}>
@@ -30,6 +42,12 @@ function LivingRawTabs() {
             </Tab.Pane>
             <Tab.Pane eventKey="second">
               <TekstSkillsLivingRaw />
+            </Tab.Pane>
+            <Tab.Pane eventKey="third">
+              <TekstProjectsLivingRaw />
+            </Tab.Pane>
+            <Tab.Pane eventKey="fourth">
+              <TekstMadeToOrderLivingRaw />
             </Tab.Pane>
           </Tab.Content>
         </Col>
