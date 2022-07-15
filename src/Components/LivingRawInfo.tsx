@@ -9,10 +9,10 @@ import TekstSkillsLivingRaw from './TekstSkillsLivingRaw';
 
 function LivingRawTabs() {
   return (
-    <Tab.Container id="left-tabs-example" defaultActiveKey="first">
+    <Tab.Container id="left-tabs-example" defaultActiveKey="first" >
       <Row>
         <Col sm={3}>
-          <Nav variant="pills" className="flex-column">
+          <Nav variant="pills" className="flex-column LivingRawBoutiqueNavItem">
             <Nav.Item>
               <Nav.Link eventKey="first" >
                 Living Raw Boutique
