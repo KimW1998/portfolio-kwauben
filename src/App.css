@@ -107,15 +107,30 @@ top: 677.39px;
   border: none;
   border-radius: 25px;
   color: white;
+  display: inline-flex;
+  min-height: 600px;
+  width: 100%;
 }
 
-.MyWorkBoxes{
-  position: relative;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
+.MyWorkBox a img{
+  margin-top: -15px;
+
 }
+
+.MyWorkBox button{
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  border-width: 3px;
+  padding: 5px;
+  border-style: solid;
+  border-image: linear-gradient(to right bottom, #260B3C, #a053df);
+  border-image-slice: 1;
+  width: 100px;
+}
+
+
+
 
 .App-footer{
   background-color: black;
