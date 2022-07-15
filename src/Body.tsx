@@ -114,15 +114,15 @@ const Body = () => {
         <MyWorkBox src={Mogustar} title="MoguStar" text="A website created for a small supplement company. The website is created with shopify for a fast deploy. The shopify HTML and CSS is changed to create a website to there wishes" used="Shopify - HTML - CSS" GithubLink="www.github.com"/>
         </Col>
         <Col className="m-5">
-        <MyWorkBox src={Pokemon} title="Pokemon" text="Pokemon website" used="React- Bootstrap - HTML - CSS" GithubLink="www.github.com"/>
+        <MyWorkBox src={Pokemon} title="Pokemon" text="A site build with React as part of a React course. The site uses a API to recieve the Pokemon and images." used="React- Bootstrap - HTML - CSS - API" GithubLink="www.github.com"/>
         </Col>
     </Row>
     <Row>
     <Col className="m-5">
-        <MyWorkBox src={ReactWeatherapp} title="React WeatherApp" text="React weather app website" used="React - HTML - CSS" GithubLink="www.github.com"/>
+        <MyWorkBox src={ReactWeatherapp} title="React WeatherApp" text="A responsive React build Weather App that receives a API to display the current weather in every city + aditional information." used="React - HTML - CSS - API" GithubLink="www.github.com"/>
         </Col>
         <Col className="m-5">
-        <MyWorkBox src={BasicWeatherap} title="WeaterApp" text="WeaterApp website" used="Bootstrap - HTML - CSS" GithubLink="www.github.com"/>
+        <MyWorkBox src={BasicWeatherap} title="WeaterApp" text="The first Weather App I ever build during my SheCodes course. In this course We build a website that receives a API to get the current weather data." used="Bootstrap - HTML - CSS - API" GithubLink="www.github.com"/>
         </Col>
     </Row>
   </Container>

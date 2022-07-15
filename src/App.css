@@ -107,15 +107,69 @@ top: 677.39px;
   border: none;
   border-radius: 25px;
   color: white;
+  display: inline-flex;
+  min-height: 600px;
+  width: 100%;
 }
 
-.MyWorkBoxes{
-  position: relative;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
+.MyWorkBox a img{
+  margin-top: -15px;
+
 }
+
+.MyWorkBox button{
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  border-width: 3px;
+  padding: 5px;
+  border-style: solid;
+  border-image: linear-gradient(to right bottom, #260B3C, #a053df);
+  border-image-slice: 1;
+  width: 100px;
+}
+
+.LivingRawBoutiqueNavItem{
+  text-align: left;
+  border-radius: 0%;
+}
+
+.LivingRawBoutiqueNavItem .nav-item .nav-link {
+  background-color: transparent ;
+  color: white;
+  border-left: 2px solid grey;
+  border-radius: 0%;
+}
+
+.LivingRawBoutiqueNavItem .nav-item .nav-link.active{
+  border-left: 2px solid white;
+  color: purple ;
+  border-radius: 0%;
+}
+
+.LivingRawBoutiqueNavItem :hover{
+  border-left: 2px solid white;
+  border-radius: 0%;
+}
+
+.MySkillsPoints{
+
+  text-align: left;
+}
+
+.text-Livingraw{
+  text-align: left;
+}
+
+.text-Livingraw h5{
+  text-align: left;
+  font-size: 20px;
+}
+
+.text-Livingraw h1{
+  font-size: 40px;
+}
+
 
 .App-footer{
   background-color: black;
