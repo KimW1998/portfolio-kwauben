@@ -1,3 +1,4 @@
+
 import headerImageKim from '../Images/headerImageKim.jpg'
 import HeaderText from './HeaderText';
 import NavigationBar from './navigationBar';
@@ -10,7 +11,9 @@ const HeaderImage = () => {
         opacity: 0.5,
         backgroundSize: 'cover'}}>
       <NavigationBar />
+      <div className='mt-5 mr-5'>
       <HeaderText/>
+      </div>
         <div className="container" style={{minHeight: '592px'}}>
             <div className="text-center justify-content-center align-self-center">
                 

@@ -1,0 +1,26 @@
+.MyWorkBox{
+    background: transparent;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    display: inline-flex;
+    min-height: 600px;
+    width: 100%;
+  }
+  
+  .MyWorkBox a img{
+    margin-top: -15px;
+  
+  }
+  
+  .MyWorkBox button{
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    border-width: 2px;
+    padding: 5px;
+    border-style: solid;
+    border-image: radial-gradient(circle at 10% 20%, #30cfd0 0%, #330867 100%);
+    border-image-slice: 1;
+    width: 100px;
+  }

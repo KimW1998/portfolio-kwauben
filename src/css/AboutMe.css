@@ -1,0 +1,47 @@
+.Button-AboutMe{
+background: transparent;
+color: white;
+cursor: pointer;
+border-width: 2px;
+padding: 7px;
+border-style: solid;
+display: flex;
+justify-content: flex-start;
+margin-top: 20px;
+}
+    
+.Gradient-background{
+width: 375.32px;
+height: 651.52px;
+left: 500px;
+top: 1316px;
+background: linear-gradient(180deg, #2400FF 0%, #00FFD1 100%);
+filter: blur(200px);
+transform: rotate(175.99deg);
+}
+        
+.ImgKim{ 
+width: 450.66px;
+height: auto;
+left: 176.34px;
+top: 677.39px;
+}
+        
+.ButtonSocial{
+background: transparent;
+color: white;
+cursor: pointer;
+border-width: 3px;
+padding: 5px;
+border-style: solid;
+border-image: radial-gradient(circle at 10% 20%, rgb(254, 3, 104) 9.3%, rgb(103, 3, 255) 89.5%);
+border-image-slice: 1;
+width: 150px;
+}
+        
+.ButtonsSocials{
+position: relative;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+}

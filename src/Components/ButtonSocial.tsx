@@ -1,10 +1,10 @@
-import { ReactElement, JSXElementConstructor, ReactFragment, ReactPortal } from "react";
+
 import { Button } from "react-bootstrap";
 
 
 const ButtonSocial = (props: { social: string ; }) => { 
     return (
-<div className="test-tekst">
+<div className="Small-Text">
     <Button className="ButtonSocial">{props.social}</Button>
 </div>
     );

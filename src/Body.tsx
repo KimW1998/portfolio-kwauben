@@ -52,7 +52,7 @@ const Body = () => {
     </Row>
     <Row className="mb-2">
         <Col>
-        <h1 className="test-tekst ItemBorderBox">My Services</h1>
+        <h1 className="Big-text ItemBorderBox">My Services</h1>
         
         </Col>
     </Row>
@@ -68,7 +68,7 @@ const Body = () => {
 
     <Row>
         <Col>
-        <h1 className="test-tekst ItemBorderBox mb-2">Skills</h1>
+        <h1 className="Big-text ItemBorderBox mb-2">Skills</h1>
         
         </Col>
     </Row>
@@ -104,14 +104,19 @@ const Body = () => {
 
     <Row>
         <Col>
-        <h1 className="test-tekst ItemBorderBox mb-5">My Work</h1>
+        <h1 className="Big-text ItemBorderBox mb-5">My Work</h1>
         
         </Col>
     </Row>
 <Container className="MyWorkBoxes">
     <Row>
     <Col className="m-5">
-        <MyWorkBox src={Mogustar} title="MoguStar" text="A website created for a small supplement company. The website is created with shopify for a fast deploy. The shopify HTML and CSS is changed to create a website to there wishes" used="Shopify - HTML - CSS" GithubLink="www.github.com"/>
+        <MyWorkBox 
+        src={Mogustar} title="MoguStar" 
+        text="A website created for a small supplement company. The website is created with shopify for a fast deploy. The shopify HTML and CSS is changed to create a website to there wishes" 
+        used="Shopify - HTML - CSS" 
+        GithubLink="www.github.com"
+        />
         </Col>
         <Col className="m-5">
         <MyWorkBox src={Pokemon} title="Pokemon" text="A site build with React as part of a React course. The site uses a API to recieve the Pokemon and images." used="React- Bootstrap - HTML - CSS - API" GithubLink="www.github.com"/>
@@ -129,7 +134,7 @@ const Body = () => {
 
     <Row>
         <Col>
-        <h1 className="test-tekst ItemBorderBox mb-5">Living raw boutique</h1>
+        <h1 className="Big-text ItemBorderBox mb-5">Living raw boutique</h1>
         
         </Col>
     </Row>
@@ -139,10 +144,10 @@ const Body = () => {
 <LivingRaw/>
         </Col>
     </Row>
-
+<div className="Contact-Border">
     <Row>
         <Col>
-        <h1 className="test-tekst ItemBorderBox mb-5">Get in touch</h1>
+        <h1 className="Big-text mb-5">Get in touch</h1>
        
         </Col>
     </Row>
@@ -151,7 +156,7 @@ const Body = () => {
         <GetInTouch />
     </Col>
     </Row>
-
+    </div>
 </Container>
 
 );

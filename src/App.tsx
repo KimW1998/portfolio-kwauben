@@ -1,6 +1,12 @@
 import React from 'react';
-import './App.css';
-
+import './css/App.css';
+import './css/Header.css';
+import './css/AboutMe.css';
+import './css/ServiceCard.css';
+import './css/Skills.css';
+import './css/MyWorkBox.css';
+import './css/LivingRawBoutique.css';
+import './css/Contact.css';
 import HeaderImage from './Components/headerImage';
 import Body from './Body';
 
