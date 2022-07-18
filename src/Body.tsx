@@ -144,10 +144,10 @@ const Body = () => {
 <LivingRaw/>
         </Col>
     </Row>
-
+<div className="Contact-Border">
     <Row>
         <Col>
-        <h1 className="Big-text ItemBorderBox mb-5">Get in touch</h1>
+        <h1 className="Big-text mb-5">Get in touch</h1>
        
         </Col>
     </Row>
@@ -156,7 +156,7 @@ const Body = () => {
         <GetInTouch />
     </Col>
     </Row>
-
+    </div>
 </Container>
 
 );
