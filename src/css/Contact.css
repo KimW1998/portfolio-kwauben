@@ -1,0 +1,6 @@
+.Contact-Border{
+    border-top: 2px solid;
+    margin-bottom: 10px;
+    border-image: linear-gradient(to right bottom, #260B3C, #a053df);
+    border-image-slice: 1;
+  }

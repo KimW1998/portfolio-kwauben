@@ -1,0 +1,40 @@
+.LivingRawBoutiqueNavItem{
+    text-align: left;
+    border-radius: 0%;
+  }
+  
+  .LivingRawBoutiqueNavItem .nav-item .nav-link {
+    background-color: transparent ;
+    color: white;
+    border-left: 2px solid grey;
+    border-radius: 0%;
+  }
+  
+  .LivingRawBoutiqueNavItem .nav-item .nav-link.active{
+    border-left: 2px solid white;
+    color: purple ;
+    border-radius: 0%;
+  }
+  
+  .LivingRawBoutiqueNavItem :hover{
+    border-left: 2px solid white;
+    border-radius: 0%;
+  }
+  
+  .MySkillsPoints{
+  
+    text-align: left;
+  }
+  
+  .text-Livingraw{
+    text-align: left;
+  }
+  
+  .text-Livingraw h5{
+    text-align: left;
+    font-size: 20px;
+  }
+  
+  .text-Livingraw h1{
+    font-size: 40px;
+  }

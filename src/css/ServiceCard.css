@@ -1,0 +1,17 @@
+.ServiceCard{
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    padding: 5px;
+    border-image: radial-gradient(circle at 10% 20%, rgb(254, 3, 104) 9.3%, rgb(103, 3, 255) 89.5%);
+    border-image-slice: 1;
+    }
+  
+  .ServiceCards{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }

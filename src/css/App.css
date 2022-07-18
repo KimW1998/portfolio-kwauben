@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  background: #232323;
+  min-height: 1500px;
+  font-family: 'Lekton', sans-serif;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Big-Text{
+font-family: 'Lekton', sans-serif;
+color: white;
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+}
+
+.Small-Text{
+font-family: 'Lekton', sans-serif;
+color: white;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+}
+
+.ItemBorderBox{
+    background: transparent;
+color: white;
+padding: 5px;
+border-top: 2px solid;
+border-bottom: 2px solid;
+border-image: radial-gradient(circle at 10% 20%, rgb(254, 3, 104) 9.3%, rgb(103, 3, 255) 89.5%);
+border-image-slice: 1;
+width: fit-content;
+position: relative;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+}
+
+.App-footer{
+  background-color: black;
+}
