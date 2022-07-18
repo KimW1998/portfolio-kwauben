@@ -12,7 +12,7 @@ function LivingRawTabs() {
     <Tab.Container id="left-tabs-example" defaultActiveKey="first" >
       <Row>
         <Col sm={3}>
-          <Nav variant="pills" className="flex-column LivingRawBoutiqueNavItem">
+          <Nav variant="pills" className="flex-column LivingRawBoutiqueNavItem Small-Text">
             <Nav.Item>
               <Nav.Link eventKey="first" >
                 Living Raw Boutique

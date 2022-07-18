@@ -2,23 +2,75 @@
   text-align: center;
   background: #232323;
   min-height: 1500px;
-  font-family: 'Lekton';
+  font-family: 'Lekton', sans-serif;
 }
+
+.Big-Text{
+font-family: 'Lekton', sans-serif;
+color: white;
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+}
+
+.Small-Text{
+font-family: 'Lekton', sans-serif;
+color: white;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+}
+
 .photo-header{
 height: 560.35px;
 left: 0px;
 top: -0.35px;
 opacity: 0.5;
 border-bottom: 4px solid rgba(0, 0, 0, 0.8);
-  }
+}
 
-  .Header-Tekst{
-    text-align: right;
-    color: #FFFFFF;
-    justify-content: flex-end;
-  align-content: center
-  
-  }
+.Header-Tekst{
+text-align: right;
+justify-content: flex-end;
+font-family: 'Lekton', sans-serif;
+color: white;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+}
+
+.Header-Text-Bold{
+text-align: right;
+justify-content: flex-end;
+font-family: 'Lekton', sans-serif;
+color: white;
+font-style: normal;
+font-size: 20px;
+font-weight: bold;
+}
+
+.Header-Button{
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  border-width: 2px;
+  padding: 7px;
+  border-style: solid;
+  margin-top: 20px;
+}
+
+.Button-AboutMe{
+background: transparent;
+color: white;
+cursor: pointer;
+border-width: 2px;
+padding: 7px;
+border-style: solid;
+display: flex;
+justify-content: flex-start;
+margin-top: 20px;
+}
+
 
   .ItemBorderBox{
     background: transparent;
@@ -74,7 +126,7 @@ top: 677.39px;
   border-style: solid;
   border-image: linear-gradient(to right bottom, #260B3C, #a053df);
   border-image-slice: 1;
-  width: 100px;
+  width: 150px;
 }
 
 .ButtonsSocials{

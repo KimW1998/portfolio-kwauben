@@ -6,12 +6,12 @@ const GetInTouch = () => {
     return (
 <div>
   <Row>
-<Col className="test-tekst">
+<Col className="Big-Text">
  <h1>Drop me a Line.</h1>
  <h1>I would like to hear from you.</h1>
 </Col>
 <Col>
-<Form className="test-tekst">
+<Form className="Small-Text">
       <Form.Group as={Row} className="mb-3" controlId="formHorizontalEmail">
         <Form.Label column sm={2}>
           Email

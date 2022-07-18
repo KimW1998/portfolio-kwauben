@@ -4,7 +4,7 @@
 const Timeline = () => {
     return (
         <div>
-            <h1 className="test-tekst">TimeLine</h1>
+            <h1 className="Big-Text">TimeLine</h1>
     </div>
     );
   }

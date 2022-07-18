@@ -1,4 +1,4 @@
-import { ReactElement, JSXElementConstructor, ReactFragment, ReactPortal } from "react";
+
 import { Button, Card } from "react-bootstrap";
 
 
@@ -8,8 +8,8 @@ const ServiceCard = (props: { title: string, text: string ; }) => {
         <div>
             <Card className="ServiceCard" style={{ width: '18rem' }}>
   <Card.Body>
-    <Card.Title>{props.title}</Card.Title>
-    <Card.Text>
+    <Card.Title className="Big-Text">{props.title}</Card.Title>
+    <Card.Text className="Small-Text">
       {props.text}
     </Card.Text>
     <Button variant="primary">View My Work</Button>

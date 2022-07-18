@@ -1,13 +1,14 @@
+import { Button } from "react-bootstrap";
 
 
 const AboutMe = () => { 
     return (
-<div className="test-tekst">
-    <h4>Hi! I'm Kim Wauben</h4>
-<h1>Software developer and fashion designer</h1>
-<h4>I’m a developer with a focus on Front-End and React.</h4>
-<h4>I graduated as a Fashion Designer and became a programmer.</h4>
-<h4>Makes sense right!?</h4>
+<div>
+    <h4 className="Big-text text-left mb-5">About Me</h4>
+<h4 className="Small-Text text-left">I am a Software developer and a Fahsion designer</h4>
+<h4  className="Small-Text text-left">I currently work as a Trainee software developer with a company in Amsterdam</h4>
+<h4  className="Small-Text text-left">Learn more about me</h4>
+<Button className="Small-Text Button-AboutMe">Download CV</Button>
 </div>
     );
 }
