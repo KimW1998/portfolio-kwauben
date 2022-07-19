@@ -25,7 +25,7 @@ const Body = () => {
     return (
 <Container>
 
-    <Row className="mb-5">
+    <Row className="mb-5" id="AboutMe">
         <Col>
         <AboutMePhoto/>
         </Col>
@@ -68,7 +68,7 @@ const Body = () => {
 
     <Row>
         <Col>
-        <h1 className="Big-text ItemBorderBox mb-2">Skills</h1>
+        <h1 className="Big-text ItemBorderBox mb-2" id="Skills">Skills</h1>
         
         </Col>
     </Row>
@@ -104,7 +104,7 @@ const Body = () => {
 
     <Row>
         <Col>
-        <h1 className="Big-text ItemBorderBox mb-5">My Work</h1>
+        <h1 className="Big-text ItemBorderBox mb-5" id="MyWork">My Work</h1>
         
         </Col>
     </Row>
@@ -134,7 +134,7 @@ const Body = () => {
 
     <Row>
         <Col>
-        <h1 className="Big-text ItemBorderBox mb-5">Living raw boutique</h1>
+        <h1 className="Big-text ItemBorderBox mb-5" id="LivingRaw">Living raw boutique</h1>
         
         </Col>
     </Row>
@@ -147,7 +147,7 @@ const Body = () => {
 <div className="Contact-Border">
     <Row>
         <Col>
-        <h1 className="Big-text mb-5">Get in touch</h1>
+        <h1 className="Big-text mb-5" id="ContactMe" >Get in touch</h1>
        
         </Col>
     </Row>
