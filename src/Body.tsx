@@ -74,33 +74,19 @@ const Body = () => {
     </Row>
 
     <Row className="mb-5">
-      <Col>
+      <Col className="col-12 skillsFlex">
         <SkillsBox imgURL={HTML5} alt="HTML5" name="HTML5" now={100} label="Advanced"/>
-      </Col>
-      <Col>
         <SkillsBox imgURL={CSS} alt="CSS" name="CSS" now={90} label="Advanced"/>
-      </Col>
-      <Col>
         <SkillsBox imgURL={React} alt="React" name="React" now={60} label="intermediate"/>
-      </Col>
-      <Col>
         <SkillsBox imgURL={JAVASCRIPT} alt="JavaScript" name="JavaScript" now={40} label="basic"/>
-      </Col>
-    </Row>
-    <Row className="mb-5">
-      <Col>
         <SkillsBox imgURL={C} alt="C sharp" name="C#" now={30} label="basic"/>
-      </Col>
-      <Col>
         <SkillsBox imgURL={BootStrap} alt="Bootstrap" name="Bootstrap" now={80} label="advanced"/>
-      </Col>
-      <Col>
         <SkillsBox imgURL={GitHub} alt="Git Hub" name="Git Hub" now={40} label="basic"/>
-      </Col>
-      <Col>
         <SkillsBox imgURL={AdobeIllustrator} alt="Adobe Illustrator" name="Adobe Illustrator" now={100} label="Advanced"/>
       </Col>
     </Row>
+    
+    
 
     <Row>
         <Col>

@@ -1,0 +1,4 @@
+.skillsFlex {
+    display: flex;
+    flex-wrap: wrap;
+}
