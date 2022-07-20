@@ -5,17 +5,19 @@ import Container from 'react-bootstrap/Container'
 const NavigationBar = () => {
     return (
       <div>
-<Navbar expand="lg" >
+<Navbar expand="lg">
   <Container>
     <Navbar.Brand className='text-white' href="#home">KWAUBEN</Navbar.Brand>
     <Navbar.Text>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
-        <Nav.Link className='text-white Small-Text' href="#home">Home</Nav.Link>
-        <Nav.Link className='text-white Small-Text' href="#link">About</Nav.Link>
-        <Nav.Link className='text-white Small-Text' href="#link">Portfolio</Nav.Link>
-        <Nav.Link className='text-white Small-Text' href="#link">Contact</Nav.Link>
+        <Nav.Link className='text-white Small-Text' href="#Home">Home</Nav.Link>
+        <Nav.Link className='text-white Small-Text' href="#AboutMe">About</Nav.Link>
+        <Nav.Link className='text-white Small-Text' href="#Skills">Skills</Nav.Link>
+        <Nav.Link className='text-white Small-Text' href="#MyWork">Projects</Nav.Link>
+        <Nav.Link className='text-white Small-Text' href="#LivingRaw">Living Raw</Nav.Link>
+        <Nav.Link className='text-white Small-Text' href="#ContactMe">Contact</Nav.Link>
       </Nav>
     </Navbar.Collapse>
     </Navbar.Text>

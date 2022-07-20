@@ -25,7 +25,7 @@ const Body = () => {
     return (
 <Container>
 
-    <Row className="mb-5">
+    <Row className="mb-5" id="AboutMe">
         <Col>
         <AboutMePhoto/>
         </Col>
@@ -68,43 +68,29 @@ const Body = () => {
 
     <Row>
         <Col>
-        <h1 className="Big-text ItemBorderBox mb-2">Skills</h1>
+        <h1 className="Big-text ItemBorderBox mb-2" id="Skills">Skills</h1>
         
         </Col>
     </Row>
 
     <Row className="mb-5">
-      <Col>
+      <Col className="col-12 skillsFlex">
         <SkillsBox imgURL={HTML5} alt="HTML5" name="HTML5" now={100} label="Advanced"/>
-      </Col>
-      <Col>
         <SkillsBox imgURL={CSS} alt="CSS" name="CSS" now={90} label="Advanced"/>
-      </Col>
-      <Col>
         <SkillsBox imgURL={React} alt="React" name="React" now={60} label="intermediate"/>
-      </Col>
-      <Col>
         <SkillsBox imgURL={JAVASCRIPT} alt="JavaScript" name="JavaScript" now={40} label="basic"/>
-      </Col>
-    </Row>
-    <Row className="mb-5">
-      <Col>
         <SkillsBox imgURL={C} alt="C sharp" name="C#" now={30} label="basic"/>
-      </Col>
-      <Col>
         <SkillsBox imgURL={BootStrap} alt="Bootstrap" name="Bootstrap" now={80} label="advanced"/>
-      </Col>
-      <Col>
         <SkillsBox imgURL={GitHub} alt="Git Hub" name="Git Hub" now={40} label="basic"/>
-      </Col>
-      <Col>
         <SkillsBox imgURL={AdobeIllustrator} alt="Adobe Illustrator" name="Adobe Illustrator" now={100} label="Advanced"/>
       </Col>
     </Row>
+    
+    
 
     <Row>
         <Col>
-        <h1 className="Big-text ItemBorderBox mb-5">My Work</h1>
+        <h1 className="Big-text ItemBorderBox mb-5" id="MyWork">My Work</h1>
         
         </Col>
     </Row>
@@ -134,7 +120,7 @@ const Body = () => {
 
     <Row>
         <Col>
-        <h1 className="Big-text ItemBorderBox mb-5">Living raw boutique</h1>
+        <h1 className="Big-text ItemBorderBox mb-5" id="LivingRaw">Living raw boutique</h1>
         
         </Col>
     </Row>
@@ -147,7 +133,7 @@ const Body = () => {
 <div className="Contact-Border">
     <Row>
         <Col>
-        <h1 className="Big-text mb-5">Get in touch</h1>
+        <h1 className="Big-text mb-5" id="ContactMe" >Get in touch</h1>
        
         </Col>
     </Row>

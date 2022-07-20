@@ -13,7 +13,7 @@ import Body from './Body';
 const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="App-header" id='Home'>
        
         <HeaderImage />
       </header>
